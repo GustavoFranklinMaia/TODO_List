@@ -2,7 +2,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/tarefas_front/node_modules
+/tarefas_back/node_modules
 # testing
 /coverage
 

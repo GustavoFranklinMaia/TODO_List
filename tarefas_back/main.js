@@ -17,6 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Conecto os controllers
 app.use('/tarefas', require('./controllers/tarefa_controller'));
+app.use('/auth', require('./controllers/authentication_controller'));
+app.use('/users', require('./controllers/user_controller'));
 
 // Conectando ao banco de dados
 console.log('Conectando ao banco de dados...');
