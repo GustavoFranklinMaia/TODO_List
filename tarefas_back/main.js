@@ -1,5 +1,5 @@
 const PORTA = 5000;
-const URL_BANCO_DE_DADOS = 'mongodb://0.0.0.0:27017/Monitoramento';
+const URL_BANCO_DE_DADOS = 'mongodb://10.0.80.122/Monitoramento';
 
 // Importando bibliotecas
 const express    = require('express');
